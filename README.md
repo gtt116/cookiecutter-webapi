@@ -5,6 +5,7 @@
 ## Usage
 
 ```bash
+$ pip install cookiecutter
 $ cookiecutter git://github.com/gtt116/cookiecutter-webapi
 ```
 
