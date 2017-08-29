@@ -1,9 +1,5 @@
 import flask
 from flask import jsonify
-from flask import request
-
-from {{cookiecutter.module_name}} import exceptions
-
 
 bp = flask.Blueprint('core', __name__)
 

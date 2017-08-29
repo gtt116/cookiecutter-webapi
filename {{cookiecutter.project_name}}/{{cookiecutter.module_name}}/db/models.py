@@ -1,5 +1,5 @@
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, String, Text, Integer, DateTime
+from sqlalchemy import Column, String, Integer, DateTime
 
 from {{cookiecutter.module_name}} import utils
 

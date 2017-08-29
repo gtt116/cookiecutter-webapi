@@ -1,7 +1,3 @@
-import json
-
-import mock
-
 from {{cookiecutter.module_name}}.tests import base as testbase
 
 
