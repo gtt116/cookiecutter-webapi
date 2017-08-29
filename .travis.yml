@@ -7,10 +7,9 @@ python:
 
 install:
   - pip install tox cookiecutter
-  - pip install -r test-requirements.txt -r requirements.txt
 
 script: 
   - cookiecutter --no-input . 
   - cd webapp
-  - flake8
-  - nosetests -sv
+  - tox -epep8
+  - tox -epy27
