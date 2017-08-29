@@ -1,0 +1,12 @@
+include README.md
+include {{cookiecutter.module_name}}/db/alembic/README
+include {{cookiecutter.module_name}}/db/alembic/alembic.ini
+include {{cookiecutter.module_name}}/db/alembic/script.py.mako
+include {{cookiecutter.module_name}}/db/alembic/env.py
+include {{cookiecutter.module_name}}/db/alembic/versions/*.sql
+include {{cookiecutter.module_name}}/db/alembic/versions/*.py
+
+exclude .gitignore
+exclude .gitreview
+
+global-exclude *.pyc

@@ -1,0 +1,15 @@
+[DEFAULT]
+# whether enable debug logging
+debug = False
+
+[API]
+# the host which api will bind
+host = 127.0.0.1
+# the port which api will bind
+port = 8888
+# the number of gunicorn workers
+workers = 4
+
+[DB]
+# sql connection for apiocr
+sql_connection = mysql://root@localhost/apiocr
