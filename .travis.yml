@@ -10,6 +10,6 @@ install:
 
 script: 
   - cookiecutter --no-input . 
-  - cd webapi
+  - cd webapp
   - tox -epep8
   - tox -epy27
