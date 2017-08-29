@@ -11,5 +11,5 @@ port = 8888
 workers = 4
 
 [DB]
-# sql connection for apiocr
-sql_connection = mysql://root@localhost/apiocr
+# sql connection for {{cookiecutter.module_name}}
+sql_connection = mysql://root@localhost/{{cookiecutter.module_name}}
