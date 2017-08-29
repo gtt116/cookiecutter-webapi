@@ -11,12 +11,9 @@ from {{cookiecutter.module_name}}.db import models
 class NoDBTestCase(unittest.TestCase):
     """Testcases that not using database access."""
 
-    @classmethod
-    def setUpClass(cls):
-        cfg.load_config(default=True)
-
     def setUp(self):
         super(NoDBTestCase, self).setUp()
+        cfg.load_config(default=True)
         self._tempdir = tempfile.mkdtemp()
 
     def tearDown(self):
